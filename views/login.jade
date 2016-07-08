@@ -1,0 +1,15 @@
+//
+   Created by andres.montoya on 4/07/2016.
+
+extends ./layout.jade
+block contenido
+    form(action="/sessions", method="POST")
+        div(class="form-group")
+            label(for="email") Email
+            input(type="text", name="email", placeholder="Email", id="email", class="form-control")
+        div(class="form-group")
+            label(for="password") Password
+            input(type="password", name="password", placeholder="Pass", id="password", class="form-control")
+
+        div(class="form-group")
+            input(type="submit" value="Log In" class="btn btn-info")
