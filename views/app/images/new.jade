@@ -1,3 +1,20 @@
 //
-   Created by andres.montoya on 11/07/2016.
+   Created by andres.montoya on 4/07/2016.
 
+extends ../../layout.jade
+block contenido
+    div(class="col-md-6 remove-float center-block big-top-space")
+        h1 Upload new image
+        form(action="/app/images", method="POST")
+            div(class="form-group")
+                label(for="title") Title
+                input(type="text", name="title", placeholder="title for image", id="title", class="form-control")
+            div
+                label(for="file") File
+                input(type="file", name="file", id="file", class="form-control")
+
+            div(class="row top-space")
+                div(class="col-xs-12 col-sm-6")
+                    input(type="submit" value="Log In" class="btn btn-info")
+                div(class="col-xs-12 col-sm-6 text-right")
+                    a(href="/signup") I don't have a count
