@@ -83,8 +83,13 @@ app.post("/users", function (req, res) {
 
 app.post("/sessions", function (req, res) {
     User.findOne({email:req.body.email, password:req.body.password}, function (err, user) {
-        req.session.user_id = user._id;
-        res.redirect("/app");
+        
+        if (user === null) {
+            res.redirect("/login");
+        } else {
+            req.session.user_id = user._id;
+            res.redirect("/app");
+        }
     });
 });
 //todas las peticiones que vayan a /app usan el session_middleware
