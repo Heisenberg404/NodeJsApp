@@ -12,6 +12,7 @@ var pass_validation = {
     message: "The passwords are differents"
 }
 mongoose.connect("mongodb://localhost/photos");
+//mongoose.connect("mongodb://andresmhkun@gmail.com:Amh123@ds019470.mlab.com:19470/science");
 
 var user_schema = new Schema({
     name: String,
