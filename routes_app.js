@@ -52,27 +52,31 @@ router.route("/images/:id")
 //acciones de una coleccion
 router.route("/images")
     .get(function (req, res) {
+        //Image.find({creator: res.locals.user._id}, function (err, imagenes) {
         Image.find({}, function (err, imagenes) {
             if(err){
                 res.redirect("/app");
                 return;
             }
-            res.render("app/images/index", {imagenes: imagenes});
-        });
-    })
-    .post(function (req, res) {
-      var data = {
-         title: req.body.title
-      };
+res.render("app/images/index", {imagenes: imagenes});
+});
+})
+.post(function (req, res) {
+    console.log(res.locals.user._id);
+    var data = {
+        title: req.body.title,
+        creator: res.locals.user._id
+    };
 
-      var imagen = new Image(data);
-      imagen.save(function (err) {
-         if(!err){
+    var imagen = new Image(data);
+    imagen.save(function (err) {
+        if(!err){
             res.redirect("/app/images/"+imagen._id)
-         }
-         else{
+        }
+        else{
+            console.log(imagen);
             res.render(err);
-         }
-      })
-    });
+        }
+    })
+});
 module.exports = router;

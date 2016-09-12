@@ -5,7 +5,8 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var img_schema = new Schema({
-   title:{type:String, required:true}
+   title:{type:String, required:true},
+   creator: {type: Schema.Types.ObjectId, ref: "User"}
 });
 
 var Image = mongoose.model("Image", img_schema);
