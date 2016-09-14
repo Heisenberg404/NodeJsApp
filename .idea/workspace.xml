@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75554b9d-b907-4846-9207-677706100380" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middlewares/image_permission.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/NodeJsApp_node_modules.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NodeJsApp.iml" afterPath="$PROJECT_DIR$/.idea/NodeJsApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/middlewares/find_image.js" afterPath="$PROJECT_DIR$/middlewares/find_image.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/images.js" afterPath="$PROJECT_DIR$/models/images.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes_app.js" afterPath="$PROJECT_DIR$/routes_app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/app/home.jade" afterPath="$PROJECT_DIR$/views/app/home.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/app/images/new.jade" afterPath="$PROJECT_DIR$/views/app/images/new.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/app/images/show.jade" afterPath="$PROJECT_DIR$/views/app/images/show.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
     </list>
     <ignored path="NodeJsApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,92 +35,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middlewares/session.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#50#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/login.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes_app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes_app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_permission.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middlewares/image_permission.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#51#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="find_image.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middlewares/find_image.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/images.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/app/images/show.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="544">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -128,10 +46,70 @@
         <entry file="file://$PROJECT_DIR$/views/app/images/new.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
               <folding>
-                <marker date="1468440734429" expanded="true" signature="619:695" ph="..." />
+                <marker date="1473772543070" expanded="true" signature="648:724" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes_app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes_app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/images.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/app/images/show.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/app/home.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,22 +138,22 @@
         <option value="$PROJECT_DIR$/views/app/home.pug" />
         <option value="$PROJECT_DIR$/views/login.jade" />
         <option value="$PROJECT_DIR$/views/signup.jade" />
-        <option value="$PROJECT_DIR$/views/app/home.jade" />
         <option value="$PROJECT_DIR$/middlewares/session.js" />
         <option value="$PROJECT_DIR$/views/app/images/dsf.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
-        <option value="$PROJECT_DIR$/views/app/images/new.jade" />
         <option value="$PROJECT_DIR$/views/app/images/edit.jade" />
-        <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/views/app/images/index.jade" />
+        <option value="$PROJECT_DIR$/middlewares/image_permission.js" />
+        <option value="$PROJECT_DIR$/middlewares/find_image.js" />
+        <option value="$PROJECT_DIR$/views/app/images/new.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/images.js" />
-        <option value="$PROJECT_DIR$/routes_app.js" />
-        <option value="$PROJECT_DIR$/middlewares/image_permission.js" />
         <option value="$PROJECT_DIR$/views/app/images/show.jade" />
-        <option value="$PROJECT_DIR$/middlewares/find_image.js" />
+        <option value="$PROJECT_DIR$/routes_app.js" />
+        <option value="$PROJECT_DIR$/views/app/home.jade" />
+        <option value="$PROJECT_DIR$/public/css/app.css" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
       </list>
     </option>
   </component>
@@ -191,9 +169,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -326,6 +305,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -340,7 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="middlewares" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,11 +375,12 @@
     <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/NodeJsApp/app.js&#10;use&#9;FILE&#9;file://C:/NodeJsApp/models/user.js&#10;sho&#9;FILE&#9;file://C:/NodeJsApp/views/app/images/show.jade" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\NodeJsApp\public\images" />
+      <recent name="C:\NodeJsApp\public\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\NodeJsApp\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\NodeJsApp\public\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -467,6 +483,8 @@
       <workItem from="1473711267145" duration="57000" />
       <workItem from="1473711356724" duration="558000" />
       <workItem from="1473716313741" duration="1254000" />
+      <workItem from="1473770870818" duration="6986000" />
+      <workItem from="1473857248020" duration="5277000" />
     </task>
     <task id="LOCAL-00001" summary="mensaje de commit">
       <created>1468267488974</created>
@@ -521,30 +539,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96854000" />
+    <option name="totallyTimeSpent" value="109117000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21791045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21726191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32242227" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17109634" sideWeight="0.4940476" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3502455" sideWeight="0.4940476" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -607,14 +625,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="65" column="19" selection-start-line="64" selection-start-column="11" selection-end-line="65" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/login.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -626,9 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,9 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,31 +848,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/app/images/dsf.js" />
-    <entry file="file://$PROJECT_DIR$/views/app/home.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -900,41 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/images.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/app/images/new.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <marker date="1468440734429" expanded="true" signature="619:695" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,42 +887,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middlewares/image_permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/middlewares/find_image.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="258">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/app/images/new.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <marker date="1473772543070" expanded="true" signature="648:724" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/57d814bda174e19c1fd0307e.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/app/images/show.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes_app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middlewares/image_permission.js">
+    <entry file="file://$PROJECT_DIR$/views/app/home.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/app/images/show.jade">
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="292">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>

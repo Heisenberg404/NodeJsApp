@@ -13,7 +13,6 @@ module.exports = function (req, res, next) {
         }
         else{
             res.redirect("/app")
-        }ON UPDATE RESTRICT
-        ON DELETE CASCADE
+        }
     } )
 }

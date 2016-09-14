@@ -9,6 +9,7 @@ var User = require("./models/user").User;
 var cookieSession = require("cookie-session");
 var router_app = require("./routes_app");
 var session_middleware = require("./middlewares/session");
+var formidable = require("express-formidable");
 var methodOverride = require("method-override");
 var app = express();
 
@@ -28,6 +29,8 @@ app.use(cookieSession({
     name: "session",
     keys: ["key-1","key-2"]
 }));
+//, uploadDir:"images" para guardarla en una carpeta
+app.use(formidable.parse({keepExtensions: true}));
 
 
 app.set("view engine","jade");

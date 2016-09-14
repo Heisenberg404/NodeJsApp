@@ -5,10 +5,16 @@
 var express = require("express");
 var Image = require("./models/images");
 var router = express.Router();
+var fs = require("fs");
 var image_finder_middleware = require("./middlewares/find_image");
 
 router.get("/", function (req, res) {
-   res.render("app/home")
+    Image.find({})
+        .populate("creator")
+        .exec(function (err, imagenes) {
+            if (err) console.log(err);
+            res.render("app/home", {imagenes : imagenes});
+        })
 });
 
 /*REST*/
@@ -49,6 +55,7 @@ router.route("/images/:id")
             }
         });
     });
+
 //acciones de una coleccion
 router.route("/images")
     .get(function (req, res) {
@@ -58,20 +65,24 @@ router.route("/images")
                 res.redirect("/app");
                 return;
             }
-res.render("app/images/index", {imagenes: imagenes});
-});
+    res.render("app/images/index", {imagenes: imagenes});
+    });
 })
 .post(function (req, res) {
-    console.log(res.locals.user._id);
+    console.log(req.body.file);
+    var extension = req.body.file.name.split(".").pop();
     var data = {
         title: req.body.title,
-        creator: res.locals.user._id
-    };
+        creator: res.locals.user._id,
+        extension: extension
+    }
 
     var imagen = new Image(data);
     imagen.save(function (err) {
         if(!err){
+            fs.rename(req.body.file.path, "public/images/"+imagen._id+"."+extension);
             res.redirect("/app/images/"+imagen._id)
+
         }
         else{
             console.log(imagen);

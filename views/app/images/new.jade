@@ -5,7 +5,7 @@ extends ../../layout.jade
 block contenido
     div(class="col-md-6 remove-float center-block big-top-space")
         h1 Upload new image
-        form(action="/app/images", method="POST")
+        form(action="/app/images" method="POST" enctype="multipart/form-data")
             div(class="form-group")
                 label(for="title") Title
                 input(type="text", name="title", placeholder="title for image", id="title", class="form-control")
