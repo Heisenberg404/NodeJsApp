@@ -14,9 +14,8 @@ module.exports = function (req, res, next) {
             }else{
                 res.locals = {user: user};
                 //con next se le dice que no afecte el flujo de la peticion.
-				//prueba
 				next();
-                next();
+                
             }
         });
 
