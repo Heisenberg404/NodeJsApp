@@ -92,7 +92,8 @@ router.route("/images")
 
             client.publish("images", JSON.stringify(imgJSON));
             fs.rename(req.body.file.path, "public/images/"+imagen._id+"."+extension);
-            res.redirect("/app/images/"+imagen._id)
+            res.redirect("/app/images/"+imagen._id )
+
 
         }
         else{
